@@ -9,14 +9,17 @@
 *{
 	margin: 0;
 }
+html{
+	width:100%;
+}
 body{
     
-	max-width: 100%;
+	width: 100%;
     
     
 }
 .block_1{
-	width:inherit;
+	width:100%;
 	height:1082px;
 	background-image: url('block1.png') ;
 	background-size: 100%;
@@ -204,14 +207,14 @@ cursor:pointer;
 	cursor: default;
 }
 .krg{
-	width:1200px;
+	width:80%;
 	height: 330px;
 	position: absolute;
 	top:45%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	left:200px;
+	left:10%;
 }
 .kk{
 	cursor: default;
