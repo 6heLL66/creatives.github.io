@@ -16,7 +16,7 @@ body{
     
 }
 .block_1{
-	width:1600px;
+	width:inherit;
 	height:1082px;
 	background-image: url('block1.png');
 	position: relative;
