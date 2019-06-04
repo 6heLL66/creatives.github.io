@@ -30,27 +30,54 @@ body{
 }
 .b1text{
 	cursor:default;
-	position: absolute;
-	top:35%;
+	
+	
 
 font-size: 110pt;
-left:26%;
+
 color: white;
 font-family: "Gotham Pro";
 font-weight: bold;
 }
+.b1textbl{
+	cursor:default;
+	position: absolute;
+	top:35%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    
+
+}
+.scrc{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top:65%;
+}
 .header{
 	height:115px;
-	width: 1600px;
+	width: 60%;
+	position: absolute;
+	left:20%;
 	border-bottom: 1px solid rgba(197,193,193,0.3);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 .cs{
 	cursor:default;
-	transition-property:top,left;
-	transition-duration:1s;
-	z-index: 2;
-	top:3%;
-	left:13.5%;
+	
+	
+	
 	font-family:"Myriad Pro" ;
 	font-size:22pt;
 	text-align: center;
@@ -59,25 +86,11 @@ font-weight: bold;
 	background-color: #11749e;
 	width: 67px;
 	height: 67px;
-	position:absolute;
+	
 }
-.cs:hover{
-	top:2%;
-	left:14.5%;
-}
-.fcs{
-	z-index: 1;
-	top:2%;
-	left:14.5%;
-	background-color: RGBA(255,255,255,0.75);
-	width: 67px;
-	height: 67px;
-	position:absolute;
-}
+
+
 ul.menu{
-position: absolute;
-top:5%;
-left:30%;
 
 
 }
@@ -94,8 +107,7 @@ ul.menu li{
 width:10px;
 height: 20px;
 background-image: url(facebook.png);
-position:absolute;
-left:0%;
+
 cursor: pointer;
 
 }
@@ -103,8 +115,7 @@ cursor: pointer;
 	width:18px;
 height: 15px;
 background-image: url(twiter.png);
-position:absolute;
-left:25%;
+
 cursor: pointer;
 }
 .verh{
@@ -126,27 +137,23 @@ cursor: pointer;
 	width:18px;
 height: 18px;
 background-image: url(skype.png);
-position:absolute;
-left:50%;
+
 cursor: pointer;
 }
 .s4{
 	width:18px;
 height: 17px;
 background-image: url(insta.png);
-position:absolute;
-left:75%;
+
 cursor: pointer;
 }
 .social{
 	display :flex;
 	flex-direction: row;
-	justify-content: center;
-	width: 140px;
+	justify-content: space-around;
+	width: 110px;
 	height: 25px;
-	position: absolute;
-    top:5%;
-left :75%;
+	
 
 }
 .scroll{
@@ -159,7 +166,7 @@ left :75%;
 	
 	position: absolute;
 	top:75%;
-	left:49%;
+	left:47%;
 }
 .st{
 color:white;
