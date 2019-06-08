@@ -271,15 +271,22 @@ cursor:pointer;
 .block_3{
 	min-width: 1600px;
 	
-	height: 949px;
+	height: 948px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	position: relative;
 	background-color: black;
 	
 }
 .line1{
+	width: 100%;
+	height: 474px;
+	display: flex;
+	flex-direction: row;
+	
+}
+.line2{
 	width: 100%;
 	height: 474px;
 	display: flex;
@@ -303,12 +310,13 @@ height: 474px;
 	width:50%;
 	height: 474px;
 	background-image: url('n3.png');
+
 	background-size: 100%;
 }
 .n4{
 	background-color: #f3f3f3;
 	width:50%;
-	height: 475px;
+	height: 474px;
 }
 .bf{
 	z-index: 5;
@@ -650,14 +658,14 @@ left:300px;
 	height: 414px;
 }
 .linename{
-	width: 78%;
+	width: 85%;
 	height: 117px;
 	position: absolute;
 	top:80%;
-	left:11%;
+	left:7.5%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 
 }
 .mm{
@@ -749,12 +757,16 @@ position: relative;
 }
 input , textarea:focus{
     outline: none;
+    
+}
+textarea{
+resize:none;
 }
 .message{
 	background-color: rgba(255,255,255,0);
 	color:rgba(255,255,255,0.7);
 	border:1px solid grey;
-	width: 69%;
+	width: 68.7%;
 	height: 200px;
 	position:absolute;
     left:15%;
