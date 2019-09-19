@@ -1,10 +1,11 @@
 @font-face{
 	font-family:"Myriad Pro";
 	src:url(8143.otf);
-	src:url(8142.otf); 
 	font-family:"Gotham Pro";
-	src:url(8144.ttf); 
+	src:url(8142.otf); 
 	font-family:"Roboto";
+	src:url(8144.ttf); 
+	
 }
 *{
 	margin: 0;
